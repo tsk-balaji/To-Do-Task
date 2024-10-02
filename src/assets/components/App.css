@@ -1,0 +1,64 @@
+html,
+body {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  max-width: 1480px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.toDoGroup {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 40px;
+  margin-bottom: 40px;
+}
+.taskName,
+.taskDesc {
+  width: 500px;
+  height: 25px;
+}
+
+.statDrop {
+  margin-right: 40px;
+}
+
+.allTasks {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  /* row-gap: 10px; */
+  align-items: center;
+  margin-left: 10%;
+}
+.card {
+  display: flex;
+  background-color: lightgreen;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.taskNameComp,
+.taskDescComp {
+  margin-right: auto;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.taskStatComp {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.updBtn {
+  margin-left: auto;
+}
+
+.delBtn {
+  margin-left: 10px;
+  margin-right: 20px;
+}
